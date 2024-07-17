@@ -1,0 +1,30 @@
+section .weather {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    text-align: center;
+    width: fit-content;
+}
+
+.weather span {
+    font-weight: bold;
+    display: block;
+}
+
+.weatherData {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    padding: 1dvh 1dvw;
+}
+
+.weatherData:last-of-type {
+    border: none;
+}
+
+.weatherIcon {
+    width: 100%;
+}
